@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./CSS/styl.css" />
+    <title>Weather</title>
+  </head>
+  <body>
+      <nav class="navbar navbar-expand-lg p-4">
+      <div class="container">
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="img-logo"><img class="w-100" src="./img/logo.png" alt=""></div>
+          <div class="ms-3">
+            <a class="navbar-brand text-white " href="#">Weather</a>
+            <p class="span-logo text-white-50">tagline goes here</p>
+          </div>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item m-2">
+              <a class="nav-link active " aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item m-2">
+              <a class="nav-link text-white" href="#">News</a>
+            </li>
+            <li class="nav-item m-2">
+              <a class="nav-link text-white" href="#">Live cameras</a>
+            </li>
+            <li class="nav-item m-2">
+              <a class="nav-link text-white" href="#">Photo</a>
+            </li>
+            <li class="nav-item m-2">
+              <a class="nav-link text-white" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <div class="container py-5">
+        <form action="" class="position-relative  ">
+          <input id="search" type="text" placeholder="Find your location...">
+          <button id="btnSearch" class="btn-search  position-absolute ">Find</button>
+        </form>
+      </div>
+    </header>
+
+    <section class="p-5">
+       <div class="container">
+         <div id="row" class="row g-3 position-relative table-t">
+          </div>
+       </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="content-footer">
+        <div class="row py-5 g-4">
+          <div class="col-lg-8 p-0 m-0">
+                <form action="" class="position-relative">
+          <input type="text" placeholder="Enter your email to subscribe...">
+          <button class="btn-search  position-absolute ">Subscribe</button>
+        </form>
+        
+          </div>
+          <div class="col-lg-4">
+            <div class="icons-social">
+                <i class="fa-brands fa-facebook "></i>
+              </div>
+            <div class="icons-social">
+                <i class="fa-brands fa-twitter"></i>
+              </div>
+            <div class="icons-social">
+                <i class="fa-brands fa-google-plus-g"></i>
+              </div>
+            <div class="icons-social">
+                <i class="fa-brands fa-pinterest"></i>
+              </div>
+          </div>
+          <p class="text-white-50 py-4">Copyright 2024. Designed by <a href="https://github.com/AmrOsama10" target="_blank" class="fw-bolder main-color text-decoration-none">Amr-osama</a>. All rights reserved</p>
+        </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./Js/bootstrap.bundle.min.js"></script>
+    <script src="./Js/main.js"></script>
+  </body>
+</html>
+
